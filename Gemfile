@@ -2,6 +2,13 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
 
+#use Haml for templates
+gem 'haml'
+# use Ruby debugger
+group :development, :test do
+  gem 'ruby-debug19'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
